@@ -1,0 +1,12 @@
+:root {
+  --color-bg-light: #fafafa;
+  --color-primary: #04a9f5;
+  --color-text-dark: #1e1e1e;
+  --radius: 8px;
+  --spacing: 12px;
+  --shadow-card: 0 2px 6px rgba(0,0,0,0.1);
+}
+* { box-sizing: border-box; margin:0; padding:0; }
+body, html { height:100%; font-family:'Public Sans', sans-serif; background:var(--color-bg-light); color:var(--color-text-dark); }
+nav, header { background:var(--color-primary); color:white; padding:var(--spacing); }
+button { background:var(--color-primary); color:white; border:none; padding:8px 12px; border-radius:var(--radius); cursor:pointer; }
